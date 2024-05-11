@@ -37,6 +37,10 @@ This RESTful API allows users to manage tasks. It supports creating, retrieving,
     ```bash
     npm start
     ```
+5. **Check/run test:**
+    ```bash
+    npx jest
+    ```
 
 ## API Endpoints
 
@@ -142,7 +146,11 @@ This RESTful API allows users to manage tasks. It supports creating, retrieving,
 - **Endpoint:** `/tasks/:taskId`
 - **Method:** `DELETE`
 - **Description:** Delete a task by its ID from the database.
-- **Example Response:** 200 OK
+- **Example Request:**
+    - **URL:** `/tasks/6108d87862f37519368f0bd7`
+    - **Method:** `DELETE`
+- **Example Response:** `200 OK`
+  
 
 ## Testing
 
@@ -161,7 +169,7 @@ Integration tests ensure that different parts of the system work together correc
 To run the tests, execute the following command in the terminal:
 
 ```bash
-npm test/jest
+npx jest
   ```
 
 ---
