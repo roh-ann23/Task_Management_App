@@ -169,7 +169,7 @@ Integration tests ensure that different parts of the system work together correc
 To run the tests, execute the following command in the terminal:
 
 ```bash
-npm test/jest
+npm jest
   ```
 
 ---
