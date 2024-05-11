@@ -37,9 +37,9 @@ This RESTful API allows users to manage tasks. It supports creating, retrieving,
     ```bash
     npm start
     ```
-5. **Check test:**
+5. **Check/run test:**
     ```bash
-    npm jest
+    npx jest
     ```
 
 ## API Endpoints
@@ -169,7 +169,7 @@ Integration tests ensure that different parts of the system work together correc
 To run the tests, execute the following command in the terminal:
 
 ```bash
-npm jest
+npx jest
   ```
 
 ---
