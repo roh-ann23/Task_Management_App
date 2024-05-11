@@ -37,6 +37,10 @@ This RESTful API allows users to manage tasks. It supports creating, retrieving,
     ```bash
     npm start
     ```
+5. **Check test:**
+    ```bash
+    npm jest
+    ```
 
 ## API Endpoints
 
